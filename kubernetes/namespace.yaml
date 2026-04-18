@@ -1,0 +1,7 @@
+apiVersion: { version }
+kind: Namespace
+metadata:
+  name: { name of the namespace }
+  # if you want to use a CI?CD tool you can add this
+  labels:
+    app.kubernetes.io/managed-by: argocd
